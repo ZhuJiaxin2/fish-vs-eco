@@ -10,8 +10,8 @@
 
 3. database
 
-* commercial: 五大湖捕捞量
-* LakeErieFish: 五大湖中之一的鱼抽样数据
+* commercial: 五大湖捕捞量（可以作为种群相对密度的数据）
+* LakeErieFish: 五大湖中之一的鱼抽样数据（可以做鱼的体重和游泳距离的数据）
   * Length
   * weight
   * water quality
