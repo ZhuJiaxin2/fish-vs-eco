@@ -6,12 +6,13 @@
 
 
 2. eco to fish
-* none
+* Lake Michigan: 幼年种群密度和juvenile（可以吸鱼的时期）的种群密度之间的关系（可以用来反推存活率）
 
 3. database
 
-* commercial: 五大湖捕捞量
-* LakeErieFish: 五大湖中之一的鱼抽样数据
+* commercial: 五大湖捕捞量（可以作为种群相对密度的数据）
+* erie: 仅lake erie的捕捞量（可以作为lake erie生态系统中种群相对密度的数据）
+* LakeErieFish: 五大湖中之一的鱼抽样数据（可以做lake erie生态系统中鱼的体重和游泳距离的数据）
   * Length
   * weight
   * water quality
