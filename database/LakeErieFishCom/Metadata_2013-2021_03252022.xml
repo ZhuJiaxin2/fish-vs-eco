@@ -1,0 +1,1875 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Kevin R. Keretz, Lake Erie Biological Station</origin>
+        <origin>Richard T. Kraus, Lake Erie Biological Station</origin>
+        <origin>Joseph D. Schmitt, Lake Erie Biological Station</origin>
+        <pubdate>20220401</pubdate>
+        <title>Lake Erie Fish Community Data, 2013-2021</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P914EL20</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Assessing the distribution and abundance of both predator and prey (forage) fish species is a cornerstone of ecosystem-based fishery management, and supports decision making that considers food-web interactions. In support of binational Great Lakes fishery management the objectives of this survey were to: provide estimates of densities of key forage and predator species in the western basin of Lake Erie, to assess seasonal and spatial distributions of fishes in tandem with water quality information, and to assess year class strength. A systematic grid sampling approach with 41 stations was sampled via bottom trawl during June (Spring) and September (Autumn), starting in 2013. This data release adds 2021 data to the set for a total of nine years observation using the same gear and sampling design.</abstract>
+      <purpose>These data are intended for use by Lake Erie fisheries managers, academia, the fishing industry, and the public. The data sets are annually reported on to provide estimates of abundance of key forage and predator species, to assess seasonal and spatial distributions of fishes, and assess year class strength of key forage and predator species in the western basin of Lake Erie. The data sets are then presented in an interactive, online format which this metadata supports. Details about the vessel and gear descriptions, sampling protocols, and catch processing protocols can be found in the methods section of this metadata.</purpose>
+      <supplinf>2013 Survey Notes: 
+
+Spring 2013:
+No notes to report
+
+Autumn 2013:
+Serial 504: Trawl snagged and ripped. Net repaired. Catch values retained in the data.
+Serial 518: Port side trawl door cable broke. Catch values retained in the data.
+Serial 517: Trawl snagged 9 minutes into trawl; no rips. Catch values retained in the data.
+Serial 509: No Secchi reading due to darkness.
+Initial grid of sampling stations was altered from previous surveys, all points shifted south 1 nm to avoid shipping lanes.
+
+2014 Survey Notes:
+
+Spring 2014:
+YSI water quality sonde not functional for serial numbers 104, 108, 109, 112, 113, 120, 125, 129, and 130.  Surface and Bottom Temp, SpCond, and DO was recorded manually and thermocline depth noted.
+Serial 107: Rough sea condition affected motion compensating balance for fish &lt;0.5 kg; small fish weights may not be accurate.
+Serial 107: First trawl returned with open cod end; a second trawl was conducted at this site and retained in the data.
+Serial 112: Trawl snagged 8 minutes into trawl; catch values retained in the data.
+Serial 127: Rocky bottom; boulders evident on sidescan sonar, but no snags.  Catch values retained in the data. 
+
+Autumn 2014:
+Catches from serial numbers 510 and 514 were subsampled and quantities of each species in the data represent gravimetrically expanded values for total catch.
+NOTUS malfunction; no data for serial numbers 501, 502, 503, 505, 506, 507, 510, 511, 515, and 517. Area swept calculations based off of mean wingspread for other serial numbers from this round of sampling.
+
+2015 Survey Notes:
+
+Spring 2015:
+NOTUS malfunction; no data for serials 101 through 116. Area swept calculations based on mean wingspread of other trawls in this round of sampling.
+Serial 125: Caught large tree in trawl; swapped out net and retrawled. Catch from second trawl retained in the data. 
+Serial 113: Cod end open, retrawled. Catch from second trawl retained in the data. 
+Serial 138: Ripped out bottom panel of trawl; retrawled site on the next day. Catch from second attempt retained in the data. 
+
+Autumn 2015:
+Serial 530: Small tear in net discovered after 2nd trawl but located far enough forward should not have affected catch. Net repaired. Catches retained in the data. 
+NOTUS factory calibration conducted; no validation of NOTUS measurements prior to 2015. Hence, measurements prior to this year may be biased.
+YSI 6600 out of commission for entire survey - used handheld YSI optical DO meter to record surface and bottom temperature and DO.
+Temperature inversion noted throughout entire survey area - slightly cooler temperatures at surface.
+
+2016 Survey Notes:
+
+Spring 2016:
+Throughout survey: SeaBird water quality sonde pump failed to activate, resulting in no circulation of water to Dissolved Oxygen, Temperature, pH, and Conductivity sensors, dramatically reducing data quality.  Thus, DO, Conductivity, and Turbidity data have no values (coded as NA in the data). While temperature may be somewhat useful, due to water being forced through the CTD (conductivity, temperature, and depth) plumbing, the user is cautioned that temperatures are expected to be mismatched with depth to an unknown degree. 
+Serial 115:  Trawl net came up twisted; retrawled, and retained catch from second try in the data.  
+Serial 139:  Echosounder calibrated to show true depth from surface instead of depth from echosounder. All values in prior days and years have been adjusted to show water depth (not depth from echosounder transducer). 
+Serial 141:  Net snagged at 5 minutes, no damage.  A second trawl was attempted on station; however, it was cancelled at 7 minutes due to further snag hazards observed on the sonar. Catch from the second trawl was retained in the data. 
+
+Autumn 2016:
+Same as Spring 2016 for water quality data. SeaBird water quality sonde pump malfunction.
+
+2017 Survey Notes:
+
+Spring 2017:
+Serial 128: Trawl redone due to open cod end discovered at end of first attempt. Catch from second trawl retained in the data. 
+Serial 135: Seabird may not have touched bottom.
+Serial 135: Large snag led to major damage to starboard gallows: field repair was not possible. Catch was discarded, and subsequent 4 sites (134, 138, 139, 141) were not sampled during spring. Gallows were repaired and tested prior to Autumn sampling round. 
+
+Autumn 2017: 
+Serial 522: Trawl ended after 7 minutes due to snagging hazards observed on sonar. Net was torn and repaired.  Catch was retained in the data.  
+Serial 518: Trawl extended to 13 minutes due to hydraulic problem.  All position data at the end of the tow are approximated due to generator failure, but speed of vessel was maintained. Catch was retained in the data. 
+Serial 532: Minor delay in retrieving the net occurred due to a broken hardware on the net retrieval system.  Catch was retained in the data. 
+Serial 531: Minor delay in deploying the net occurred due to hardware replacement on the net retrieval system.  This did not affect time on bottom for the trawl.   
+Serial 540: Tree caught in net. Net was held near the boat until tree was removed (30 minutes). No tears were observed, and the tree was hanging in the mouth of the net. Catch was retained in the data. 
+
+2018 Survey Notes
+
+Spring 2018:
+
+No sampling occurred because the research vessel was unavailable due to scheduled repairs and maintenance.
+
+Autumn 2018:
+
+541: Tree caught in net. Net held near boat until tree was removed (10-15 minutes). No tears were observed and the tree was hanging in the mouth of the net. Catch results were retained in the data.
+
+2019 Survey Notes
+
+Spring 2019:
+
+103: Trawl was ended early due to vessel traffic.
+
+Spring 2020:
+
+No sampling occurred due to travel restrictions during the SARS-CoV-2 pandemic. 
+
+Autumn 2020:
+
+No sampling occurred at stations in Ontario waters (507, 510, 511, 515, 517, 518, 519, 522, 523, 524, 527, 528, 532, 533, and 537) due to travel restrictions during the SARS-CoV-2 pandemic. 
+
+Autumn 2021:
+
+No sampling occurred at stations in Ontario waters (507, 510, 511, 515, 517, 518, 519, 522, 523, 524, 527, 528, 532, 533, and 537) due to travel restrictions during the SARS-CoV-2 pandemic.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20130618</begdate>
+          <enddate>20210915</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Western Lake Erie</descgeog>
+      <bounding>
+        <westbc>-83.5730</westbc>
+        <eastbc>-82.1503</eastbc>
+        <northbc>42.2244</northbc>
+        <southbc>41.3356</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>field sampling</themekey>
+        <themekey>population dynamics</themekey>
+        <themekey>freshwater ecosystems</themekey>
+      </theme>
+      <theme>
+        <themekt>Producer Defined</themekt>
+        <themekey>bottom trawl survey</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:61e87616d34e8b818ad89732</themekey>
+      </theme>
+      <place>
+        <placekt>Getty Thesaurus of Geographic Names</placekt>
+        <placekey>Lake Erie</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>Michigan</placekey>
+        <placekey>Ontario</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Alosa pseudoharengus</taxonkey>
+        <taxonkey>Dorosoma cepedianum</taxonkey>
+        <taxonkey>Pomoxis nigromaculatus</taxonkey>
+        <taxonkey>Pomoxis annularis</taxonkey>
+        <taxonkey>Lepomis macrochirus</taxonkey>
+        <taxonkey>Lepomis gibbosus</taxonkey>
+        <taxonkey>Micropterus salmoides</taxonkey>
+        <taxonkey>Micropterus dolomieu</taxonkey>
+        <taxonkey>Ambloplites rupestris</taxonkey>
+        <taxonkey>Aplodinotus grunniens</taxonkey>
+        <taxonkey>Percina caprodes</taxonkey>
+        <taxonkey>Sander vitreus</taxonkey>
+        <taxonkey>Perca flavescens</taxonkey>
+        <taxonkey>Morone chrysops</taxonkey>
+        <taxonkey>Morone americana</taxonkey>
+        <taxonkey>Neogobius melanostomus</taxonkey>
+        <taxonkey>Labidesthes sicculus</taxonkey>
+        <taxonkey>Ameiurus nebulosus</taxonkey>
+        <taxonkey>Ameiurus natalis</taxonkey>
+        <taxonkey>Ictalurus punctatus</taxonkey>
+        <taxonkey>Cyprinus carpio</taxonkey>
+        <taxonkey>Notropis atherinoides</taxonkey>
+        <taxonkey>Carassius auratus</taxonkey>
+        <taxonkey>Macrhybopsis storeriana</taxonkey>
+        <taxonkey>Moxostoma erythrurum</taxonkey>
+        <taxonkey>Moxostoma anisurum</taxonkey>
+        <taxonkey>Catostomus commersonii</taxonkey>
+        <taxonkey>Salvelinus namaycush</taxonkey>
+        <taxonkey>Coregonus clupeaformis</taxonkey>
+        <taxonkey>Esox masquinongy</taxonkey>
+        <taxonkey>Osmerus mordax dentex</taxonkey>
+        <taxonkey>Percopsis omiscomaycus</taxonkey>
+        <taxonkey>Acipenser fulvescens</taxonkey>
+        <taxonkey>Ichthyomyzon unicuspis</taxonkey>
+        <taxonkey>Petromyzon marinus</taxonkey>
+        <taxonkey>Lepomis gibbosus</taxonkey>
+      </keywtax>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Bilateria</taxonrv>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Deuterostomia</taxonrv>
+            <taxoncl>
+              <taxonrn>Phylum</taxonrn>
+              <taxonrv>Chordata</taxonrv>
+              <taxoncl>
+                <taxonrn>Subphylum</taxonrn>
+                <taxonrv>Vertebrata</taxonrv>
+                <taxoncl>
+                  <taxonrn>Infraphylum</taxonrn>
+                  <taxonrv>Gnathostomata</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Superclass</taxonrn>
+                    <taxonrv>Actinopterygii</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Class</taxonrn>
+                      <taxonrv>Teleostei</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Superorder</taxonrn>
+                        <taxonrv>Clupeomorpha</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Clupeiformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Suborder</taxonrn>
+                            <taxonrv>Clupeoidei</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Clupeidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Subfamily</taxonrn>
+                                <taxonrv>Alosinae</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Genus</taxonrn>
+                                  <taxonrv>Alosa</taxonrv>
+                                  <taxoncl>
+                                    <taxonrn>Species</taxonrn>
+                                    <taxonrv>Alosa pseudoharengus</taxonrv>
+                                    <common>TSN: 161706</common>
+                                  </taxoncl>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Subfamily</taxonrn>
+                                <taxonrv>Dorosomatinae</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Genus</taxonrn>
+                                  <taxonrv>Dorosoma</taxonrv>
+                                  <taxoncl>
+                                    <taxonrn>Species</taxonrn>
+                                    <taxonrv>Dorosoma cepedianum</taxonrv>
+                                    <common>TSN: 161737</common>
+                                  </taxoncl>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Superorder</taxonrn>
+                        <taxonrv>Acanthopterygii</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Perciformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Suborder</taxonrn>
+                            <taxonrv>Percoidei</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Centrarchidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Pomoxis</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Pomoxis nigromaculatus</taxonrv>
+                                  <common>TSN: 168167</common>
+                                </taxoncl>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Pomoxis annularis</taxonrv>
+                                  <common>TSN: 168166</common>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Lepomis</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Lepomis macrochirus</taxonrv>
+                                  <common>TSN: 168141</common>
+                                </taxoncl>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Lepomis gibbosus</taxonrv>
+                                  <common>TSN: 168144</common>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Micropterus</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Micropterus salmoides</taxonrv>
+                                  <common>TSN: 168160</common>
+                                </taxoncl>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Micropterus dolomieu</taxonrv>
+                                  <common>TSN: 550562</common>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Ambloplites</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Ambloplites rupestris</taxonrv>
+                                  <common>TSN: 168097</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Sciaenidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Aplodinotus</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Aplodinotus grunniens</taxonrv>
+                                  <common>TSN: 169364</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Percidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Percina</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Percina caprodes</taxonrv>
+                                  <common>TSN: 168472</common>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Sander</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Sander vitreus</taxonrv>
+                                  <common>TSN: 650173</common>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Perca</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Perca flavescens</taxonrv>
+                                  <common>TSN: 168469</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Moronidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Morone</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Morone chrysops</taxonrv>
+                                  <common>TSN: 167682</common>
+                                </taxoncl>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Morone americana</taxonrv>
+                                  <common>TSN: 167678</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Suborder</taxonrn>
+                            <taxonrv>Gobioidei</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Gobiidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Neogobius</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Neogobius melanostomus</taxonrv>
+                                  <common>TSN: 172072</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Atheriniformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Family</taxonrn>
+                            <taxonrv>Atherinopsidae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Subfamily</taxonrn>
+                              <taxonrv>Menidiinae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Labidesthes</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Labidesthes sicculus</taxonrv>
+                                  <common>TSN: 166016</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Superorder</taxonrn>
+                        <taxonrv>Ostariophysi</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Siluriformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Family</taxonrn>
+                            <taxonrv>Ictaluridae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Ameiurus</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Ameiurus nebulosus</taxonrv>
+                                <common>TSN: 164043</common>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Ameiurus natalis</taxonrv>
+                                <common>TSN: 164041</common>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Ictalurus</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Ictalurus punctatus</taxonrv>
+                                <common>TSN: 163998</common>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Cypriniformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Superfamily</taxonrn>
+                            <taxonrv>Cyprinoidea</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Cyprinidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Cyprinus</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Cyprinus carpio</taxonrv>
+                                  <common>TSN: 163344</common>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Notropis</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Notropis atherinoides</taxonrv>
+                                  <common>TSN: 163412</common>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Carassius</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Carassius auratus</taxonrv>
+                                  <common>TSN: 163350</common>
+                                </taxoncl>
+                              </taxoncl>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Macrhybopsis</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Macrhybopsis storeriana</taxonrv>
+                                  <common>TSN: 163870</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Superfamily</taxonrn>
+                            <taxonrv>Cobitoidea</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Catostomidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Subfamily</taxonrn>
+                                <taxonrv>Catostominae</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Tribe</taxonrn>
+                                  <taxonrv>Moxostomatini</taxonrv>
+                                  <taxoncl>
+                                    <taxonrn>Genus</taxonrn>
+                                    <taxonrv>Moxostoma</taxonrv>
+                                    <taxoncl>
+                                      <taxonrn>Species</taxonrn>
+                                      <taxonrv>Moxostoma erythrurum</taxonrv>
+                                      <common>TSN: 163939</common>
+                                    </taxoncl>
+                                    <taxoncl>
+                                      <taxonrn>Species</taxonrn>
+                                      <taxonrv>Moxostoma anisurum</taxonrv>
+                                      <common>TSN: 163933</common>
+                                    </taxoncl>
+                                  </taxoncl>
+                                </taxoncl>
+                                <taxoncl>
+                                  <taxonrn>Tribe</taxonrn>
+                                  <taxonrv>Catostomini</taxonrv>
+                                  <taxoncl>
+                                    <taxonrn>Genus</taxonrn>
+                                    <taxonrv>Catostomus</taxonrv>
+                                    <taxoncl>
+                                      <taxonrn>Species</taxonrn>
+                                      <taxonrv>Catostomus commersonii</taxonrv>
+                                      <common>TSN: 553273</common>
+                                    </taxoncl>
+                                  </taxoncl>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Superorder</taxonrn>
+                        <taxonrv>Protacanthopterygii</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Salmoniformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Family</taxonrn>
+                            <taxonrv>Salmonidae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Subfamily</taxonrn>
+                              <taxonrv>Salmoninae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Salvelinus</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Salvelinus namaycush</taxonrv>
+                                  <common>TSN: 162002</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Subfamily</taxonrn>
+                              <taxonrv>Coregoninae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Coregonus</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Coregonus clupeaformis</taxonrv>
+                                  <common>TSN: 161941</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Esociformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Family</taxonrn>
+                            <taxonrv>Esocidae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Esox</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Esox masquinongy</taxonrv>
+                                <common>TSN: 162144</common>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Osmeriformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Suborder</taxonrn>
+                            <taxonrv>Osmeroidei</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Superfamily</taxonrn>
+                              <taxonrv>Osmeroidea</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Family</taxonrn>
+                                <taxonrv>Osmeridae</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Genus</taxonrn>
+                                  <taxonrv>Osmerus</taxonrv>
+                                  <taxoncl>
+                                    <taxonrn>Species</taxonrn>
+                                    <taxonrv>Osmerus mordax</taxonrv>
+                                    <taxoncl>
+                                      <taxonrn>Subspecies</taxonrn>
+                                      <taxonrv>Osmerus mordax dentex</taxonrv>
+                                      <common>TSN: 162044</common>
+                                    </taxoncl>
+                                  </taxoncl>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Superorder</taxonrn>
+                        <taxonrv>Paracanthopterygii</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Percopsiformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Suborder</taxonrn>
+                            <taxonrv>Percopsoidei</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Percopsidae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Percopsis</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Percopsis omiscomaycus</taxonrv>
+                                  <common>TSN: 164409</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Class</taxonrn>
+                      <taxonrv>Chondrostei</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Acipenseriformes</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Suborder</taxonrn>
+                          <taxonrv>Acipenseroidei</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Family</taxonrn>
+                            <taxonrv>Acipenseridae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Subfamily</taxonrn>
+                              <taxonrv>Acipenserinae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Acipenser</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Acipenser fulvescens</taxonrv>
+                                  <common>TSN: 161071</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+                <taxoncl>
+                  <taxonrn>Infraphylum</taxonrn>
+                  <taxonrv>Agnatha</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Class</taxonrn>
+                    <taxonrv>Cephalaspidomorphi</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Order</taxonrn>
+                      <taxonrv>Petromyzontiformes</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Family</taxonrn>
+                        <taxonrv>Petromyzontidae</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Genus</taxonrn>
+                          <taxonrv>Ichthyomyzon</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Species</taxonrn>
+                            <taxonrv>Ichthyomyzon unicuspis</taxonrv>
+                            <common>TSN: 159730</common>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Genus</taxonrn>
+                          <taxonrv>Petromyzon</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Species</taxonrn>
+                            <taxonrv>Petromyzon marinus</taxonrv>
+                            <common>TSN: 159722</common>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the data set's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - Lake Erie Biological Station</cntorg>
+          <cntper>Kevin Keretz</cntper>
+        </cntorgp>
+        <cntpos>Fisheries Technician</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>6100 Columbus Avenue</address>
+          <city>Sandusky</city>
+          <state>OHIO</state>
+          <postal>44870</postal>
+          <country>United States of America</country>
+        </cntaddr>
+        <cntvoice>4196251976</cntvoice>
+        <cntemail>kkeretz@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Environment as of Metadata Creation: Microsoft Windows 10 Enterprise Version 1607; Esri ArcGIS 10.5.1 (Build 4959) Service Pack N/A (Build N/A)</native>
+    <crossref>
+      <citeinfo>
+        <origin>Betsy Bodamer-Scarbro</origin>
+        <pubdate>20170201</pubdate>
+        <title>Lake Erie Fish Community Data, 2013-2016</title>
+        <geoform>dataset</geoform>
+        <pubinfo>
+          <pubplace>https://www.sciencebase.gov</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>The data publication indicated by this citation precedes the data release being described in this metadata record</othercit>
+        <onlink>https://doi.org/10.5066/F7SF2TFR</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Taylor R. Stewart</origin>
+        <pubdate>20160419</pubdate>
+        <title>Lake Erie Fish Community Data, 2013-2015</title>
+        <geoform>dataset</geoform>
+        <pubinfo>
+          <pubplace>https://www.sciencebase.gov</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>The data publication indicated by this citation precedes the data release being described in this metadata record</othercit>
+        <onlink>https://doi.org/10.5066/F79C6VHJ</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kevin R. Keretz</origin>
+        <pubdate>2018</pubdate>
+        <title>Lake Erie Fish Community Data, 2013-2017</title>
+        <geoform>dataset</geoform>
+        <pubinfo>
+          <pubplace>https://www.sciencebase.gov</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>The data publication indicated by this citation precedes the data release being described in this metadata record</othercit>
+        <onlink>https://doi.org/10.5066/F7KK9B1R</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kevin R. Keretz</origin>
+        <pubdate>20190312</pubdate>
+        <title>Lake Erie Fish Community Data, 2013-2018</title>
+        <geoform>dataset</geoform>
+        <pubinfo>
+          <pubplace>https://www.sciencebase.gov</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>The data publication indicated by this citation precedes the data release being described in this metadata record.</othercit>
+        <onlink>https://doi.org/10.5066/P9Z0SBKZ</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Taylor R. Stewart</origin>
+        <origin>Kevin R. Keretz</origin>
+        <origin>Joseph D. Schmitt</origin>
+        <origin>Richard T. Kraus</origin>
+        <pubdate>2020</pubdate>
+        <title>Lake Erie Fish Community Data Explorer</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Sandusky, Ohio</pubplace>
+          <publish>Lake Erie Biological Station</publish>
+        </pubinfo>
+        <onlink>https://lebs.shinyapps.io/western-basin/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Geological Survey, Great Lakes Science Center</origin>
+        <pubdate>2019</pubdate>
+        <title>Great Lakes Research Vessel Operations 1958-2018. (ver. 3.0, April 2019)</title>
+        <geoform>dataset</geoform>
+        <pubinfo>
+          <pubplace>https://www.sciencebase.gov</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/f75m63x0</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kevin R. Keretz</origin>
+        <pubdate>20200410</pubdate>
+        <title>Lake Erie Fish Community Data, 2013-2019</title>
+        <geoform>dataset</geoform>
+        <pubinfo>
+          <pubplace>https://www.sciencebase.gov</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>The data publication indicated by this citation precedes the data release being described in this metadata record.</othercit>
+        <onlink>https://doi.org/10.5066/P9LL6YOR</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kevin R. Keretz</origin>
+        <pubdate>20210406</pubdate>
+        <title>Lake Erie Fish Community Data, 2013-2020</title>
+        <geoform>dataset</geoform>
+        <pubinfo>
+          <pubplace>https://www.sciencebase.gov</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>The data publication indicated by this citation precedes the data release being described in this metadata record.</othercit>
+        <onlink>https://doi.org/10.5066/P9RTBF7L</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Each variable was checked to ensure all data points fall within an expected range for Lake Erie (e.g., no negative temperature values).  In addition, length and weight variables were modeled with power functions to identify outliers, and, if possible, correct the values if a data entry error could be identified (e.g., length and weight fields were switched).  If no reasonable correction could be carried out, the outlying value was discarded and replaced with an "NA" value. Note the water quality equipment change in process step 3.  Equipment used from 2013-2016 was serviceable, but reliability issues and questionable measurements led to the unit being replaced with instruments shown to have more precise and dependable measuring capabilities.</attraccr>
+    </attracc>
+    <logic>All data underwent a quality assurance process during post-trip data processing at the end of each survey. The number of fish measured and sites samples was checked between data tables for internal consistency (e.g., if 5 fish were measured, does the aggregate count reflect at least 5 fish? Are there any duplicate observations?).  Geographic coordinates were inspected topologically to ensure that values were in the correct hemisphere and that they were within the sampling domain.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.  Some data was removed from the data set for quality control reasons (see attribute accuracy report above). Survey notes are included in the Supplemental Information section, which provide year and serial specific notes on issues occurring during data collection, some of which could have had an effect on the data recorded.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Position information for all bottom trawls (beginning and end latitude and longitude) was collected and compared in two different locations on the vessel (back deck and pilot house). Final coordinates at each station were compared to target locations and plotted using Google Earth to ensure accuracy.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Bottom depth was recorded at the beginning and end of each bottom trawl on the back deck and pilot house of the vessel.  Final depth values were compared between locations to ensure precision, but a formal accuracy report was not conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Vessel Information: The R/V Muskie is a 70’ length over all, purpose-built research vessel with an aluminum mono-hull, twin propeller, and a double-warp trawl system. The vessel navigated at a cruising speed of 11.5 knots, using WAAS enabled GPS with reported accuracy that was typically less than the length of vessel and often less than 3 m.  Depending on weather and other uncontrollable variables, the number of stations sampled per day varied between 9 and 12 with a total time of 1 hour between arrivals at successive stations. Due to navigational safety decisions made by the captain, the direction of the trawl at each site varied, but was typically down wind and parallel to or away from commercial shipping traffic and recreation fishing activity.</procdesc>
+        <procdate>20200915</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Trawl Description: The net is a four-seam, three-bridle bottom trawl, with a fishing circle of 200 x 12 (cm) meshes at the mouth of the net. The body of the net transitions from a stretched mesh size of 12 cm to 6 cm and is constructed of braided polyethylene twine. The cod-end liner is constructed of 14 mm (stretched measurement) knotless Dyneema mesh. The head rope length is 11.2 m and the foot rope length is 14.2 m.  To accommodate hard bottom habitats, the sweep was designed with 8” rubber discs interspersed between 2-3/8” rubber discs in a configuration called a “rubber cookie sweep”.  The bridle length is 36.6 m overall with a junction between the top and middle bridle at 18.3 m. The bridle is constructed of wire rope, with 1/2” diameter cable on the bottom bridle, and 3/8” diameter cable on the middle and top bridles.
+
+To fish this net we used high performance steel doors, Thyboron Type IV.  Prior to 2018, the doors were outfitted with heavy-duty ball bearing swivels to reduce asymmetric twisting resistance in the trawl warps, warps were 3/8" wire rope, and the length during fishing was scoped at a ratio of 5:1 - warp to depth.   In 2018, swivels were removed from the doors and wire rope warps were replaced with 3/8" (OD) braided Dyneema (R) that was fished with the same scope.  The headline height was consistently 3.0 m when measured with NOTUS acoustic mensuration gear during trawling. Average wing spread varied both as a function of depth and scope. Prescribed trawling time was 10 minutes at a target speed of 3 knots.  
+
+The fishing time was measured from the moment the warp was paid out to the time that it started to be hauled.  Area swept for each trawl sample was calculated as the product of the distance towed and the average wingspread. Typical area swept was 0.6 to 0.9 hectares. 
+
+Wingspread sensor accuracy was tested at the beginning of 2015, 2016, and 2017 using a 6 m fixed pole, deployed at least twice each year from the R/V Muskie at a depth of between 10 and 15 m for at least 300 seconds.  The mean observed wingspread value varied from the true value (6 m) by less than 0.5 m, which is less than the manufacturer's stated accuracy of the system.</procdesc>
+        <procdate>20200915</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Sonde Description: 2013 through June 2016: YSI 6600 series multiparameter sonde. Sensors included: Temperature 6560 Sensor, Depth, ROX™ Optical Dissolved Oxygen (% Saturation), ROX™ Optical Dissolved Oxygen (mg/L), Conductivity 6560 Sensor, Salinity, pH 6561 Sensor, Turbidity 6136 Sensor, and Chlorophyll 6025 Sensor. 
+
+Sonde Description: Autumn 2016 to present: SeaBird SBE19plus V2 SeaCAT Profiler CTD with Pumped Conductivity, Temperature, and Pressure Sensor (4 scans/sec, 4 Hz, SBE 5M submersible pump). Auxiliary Sensors include: SBE43 Dissolved Oxygen Sensor, Satlantic Cosine PAR sensor, WET Labs ECO-Flrt Chlorophyll fluorometer (30 ug/l range), and WET Labs C-Star Transmissometer (CST-25-PR).
+
+Sondes were deployed in profiling mode at a target rate of 4 s per meter before each trawl. First, the sonde was placed in the water at the surface (less than 1 m) and allowed to equilibrate for 180 seconds. Then, the device was lowered to the bottom, where it was allowed to rest near the bottom for approximately 90 seconds. The device was then retrieved at the same rate. Typically, only the downcast was retained in the data, but on rare occasions when there were erratic results on the downcast, the upcast was selected for inclusion in the data.</procdesc>
+        <procdate>20200915</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Catch Processing Protocol: For each trawl sample, fish were sorted by species and size mode (determined by eye) and each of these categories was weighed in aggregate.  A subsample (n=5 individuals) from each of these age-size categories was measured for individual lengths and weights (using a motion compensating scale with accuracy of 0.2 g).  All weights and length measurements for each species and size mode were digitally uploaded to a central access database using FEED (Fisheries Environment for Electronic Data; Virginia Institute of Marine Science) software along with Big Fin Scientific electronic measuring boards and Marel motion compensating scales.  Total count was calculated by dividing the aggregate weight by the mean individual weight (count displayed as a non-integer). Exceptions to this procedure were percids (Yellow Perch and Walleye), for which each individual was counted, and small fish with individual weights that were less than the accuracy of our scale.  For the former situation with percids, on a few occasions the catch of Yellow Perch was so large that we used gravimetric extrapolation.  For the latter situation, the subsample of fish was weighed in aggregate to obtain the average individual weight, but individual total lengths were still obtained for the subsample.  Age-groups (young-of-year, age-1, age-2+, or yearling-and-older) were identified through length-frequency analysis of data pooled across each survey round.  This was accomplished by summing Gaussian distributions for each species-size (based upon mean and standard deviations from individual measurements) that were expanded to the total catch.</procdesc>
+        <procdate>20200915</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Catch Subsampling Protocol: For trawl samples with a high catch volume, a subsampling protocol was used to reduce processing time. First, all “large” fish (greater than 1 kg) were removed from the sample and processed in the typical way. All remaining fish were subsampled by dividing the catch into two portions (subsamples). Each subsample was weighed in aggregate. Of the two subsamples, one was randomly selected and processed while the other was discarded.  Species-size category counts were calculated by gravimetric expansion.</procdesc>
+        <procdate>20200915</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WB_Catch.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data. The WB_Catch data table contains data on fish captured via bottom trawl (i.e. species, life stage, and catch) and effort (i.e. date, time, location, fishing depth, and trawl metrics). A unique row is made up of a serial number, year, species, and life_stage. This data set is linked to the WB_LengthWeight and WB_WaterQuality data sets by the serial/year combination.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>serial</attrlabl>
+        <attrdef>USGS assigned identification number to distinguish sampling sites and events. Serial numbers are unique only within year.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>USGS assigned identification number to distinguish sampling sites and events.  100s represent stations sampled in June, and 500s represent stations sampled in September.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>time</attrlabl>
+        <attrdef>Time of sampling; 24hr (military) time.  Blank spaces in Spring 2018 coincide with lack of sampling. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>626</rdommin>
+            <rdommax>2028</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>day</attrlabl>
+        <attrdef>Day sampling occurred. Blank spaces in Spring 2018 coincide with lack of sampling. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>13</rdommin>
+            <rdommax>27</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>month</attrlabl>
+        <attrdef>Month sampling occurred (i.e. 6 is June, 7 is July, etc.)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>Year sampling occurred.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2013</rdommin>
+            <rdommax>2020</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>season</attrlabl>
+        <attrdef>Season sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Spring</edomv>
+            <edomvd>June</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Autumn</edomv>
+            <edomvd>September</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fishing_depth_m</attrlabl>
+        <attrdef>Depth of sampling (water depth at station). Blank spaces in Spring 2018 coincide with lack of sampling. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.6576</rdommin>
+            <rdommax>16.40</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wingspread_m</attrlabl>
+        <attrdef>Distance between port and starboard sides of the net mouth during trawling.  Sensors were places on the middle bridle attachment point to obtain the measurement. Blank spaces in Spring 2018 coincide with lack of sampling. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4.4</rdommin>
+            <rdommax>10.7</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>tow_dist_m</attrlabl>
+        <attrdef>Distance towed during sampling: from start (when the net and warp was completely deployed) to end (the moment the hauling back of the net was initiated). Blank spaces in Spring 2018 coincide with lack of sampling. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>401.0307231</rdommin>
+            <rdommax>1465.941727</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>area_m2</attrlabl>
+        <attrdef>Area swept by the net: calculated as the tow distance x the wingspread. Blank spaces in Spring 2018 coincide with lack of sampling. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2406.184339</rdommin>
+            <rdommax>12167.3163305</rdommax>
+            <attrunit>square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>area_ha</attrlabl>
+        <attrdef>Hectares swept by the net: calculated from area. Blank spaces in Spring 2018 coincide with lack of sampling. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.240618434</rdommin>
+            <rdommax>1.21673163305</rdommax>
+            <attrunit>hectares</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>species</attrlabl>
+        <attrdef>Common fish name</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Common fish name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>life_stage</attrlabl>
+        <attrdef>Life stage determined by length frequency histograms as described in the data process steps.  Fish captured in trawls were assigned a length-based age estimate.  Age categories varied by species, according to accepted conventions by Lake Erie fishery managers.   Thus, species have either two (YOY and YAO) or three (YOY, AGE_1, AGE_2+) age categories. One exception was Round Goby for which age-groups were not quantified due to difficulties in assigning age from length frequency data. Further, all of the species have an entry for category “ALL”, which is the sum of the age categories for that species.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>YOY</edomv>
+            <edomvd>Young of the Year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Age_1</edomv>
+            <edomvd>Age-1</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Age_2+</edomv>
+            <edomvd>Age-2 or greater</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>YAO</edomv>
+            <edomvd>Yearling and Older</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ALL</edomv>
+            <edomvd>All ages</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>n_per_ha</attrlabl>
+        <attrdef>Numbers of fish per hectare swept (density). Sampling was not conducted in Spring 2018. Zeros mean no fish were captured (absence). NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>66497.80401</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>kg_per_ha</attrlabl>
+        <attrdef>Kilograms of fish per hectare swept (biomass). Sampling was not conducted in Spring 2018. Zeros mean no fish were captured (absence). NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>396.4301743</rdommax>
+            <attrunit>kilogram</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+        <attrdef>Latitude for station. Sampling was not conducted in Spring 2018. NA values indicate that data is not available. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>41.4560</rdommin>
+            <rdommax>41.9884</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>long</attrlabl>
+        <attrdef>Longitude for station. Sampling was not conducted in Spring 2018. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-83.3835</rdommin>
+            <rdommax>-82.2476</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>count</attrlabl>
+        <attrdef>Total number of fish caught (may be calculated gravimetrically and be displayed as a non-integer as described in the data process steps). Sampling was not conducted in Spring 2018. Zeros mean no fish were captured (absence). NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>29842.96296</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>weight_kg</attrlabl>
+        <attrdef>Total weight of fish caught (measured directly). Sampling was not conducted in Spring 2018. Zeros mean no fish were captured (absence). NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>189.608</rdommax>
+            <attrunit>kilogram</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>WB_ExpandedLengths.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data. Data in the WB_ExpandedLengths dataset were created using a bootstrapping procedure which utilized original length-weight data collected during each sampling season/year (located in the length-weight dataset) to provide an estimated length/weight distribution by species given the season and year. Created distributions were used to create plots with focus on further understanding of where age classes occur with respect to length.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>tl_mm</attrlabl>
+        <attrdef>total length - snout to distal tip of tail</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4</rdommin>
+            <rdommax>1562</rdommax>
+            <attrunit>mm</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>species</attrlabl>
+        <attrdef>Common fish name</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Common fish name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>Year sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2013</rdommin>
+            <rdommax>2020</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>season</attrlabl>
+        <attrdef>Season sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Autumn</edomv>
+            <edomvd>September</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Spring</edomv>
+            <edomvd>June</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>WB_LengthWeight.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data. The WB_Lengthweight dataset contains length and weight of fishes subsampled from trawl catches, as well as the visual size class assignment and location data. A unique row is made up of a serial number, year, and fish_id. This data set is linked to the WB_Catch and WB_WaterQuality data sets by a serial/year combination.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>serial</attrlabl>
+        <attrdef>USGS assigned identification number to distinguish sampling sites and events. Serial numbers are unique only within year.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>USGS assigned identification number to distinguish sampling sites and events. 100s represent stations sampled in June, and 500s represent stations sampled in September.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>day</attrlabl>
+        <attrdef>Day sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>13</rdommin>
+            <rdommax>25</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>month</attrlabl>
+        <attrdef>Month sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>Year sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2013</rdommin>
+            <rdommax>2021</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>season</attrlabl>
+        <attrdef>Season sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Spring</edomv>
+            <edomvd>June</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Autumn</edomv>
+            <edomvd>September</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fish_id</attrlabl>
+        <attrdef>Post hoc assigned fish ID number - reset for each sampling series, which is defined by a set of serial numbers. Samples in June were defined by serial numbers in the 100s.  Samples in September were defined by serial numbers in the 500s.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>One to four digit numeric code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>species</attrlabl>
+        <attrdef>Common fish name</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Common fish name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>tl_mm</attrlabl>
+        <attrdef>total length - snout to distal tip of tail. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>18</rdommin>
+            <rdommax>1562.0</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wt_g</attrlabl>
+        <attrdef>Weight - determined by motion compensating scale or triple beam balance. NA values indicate that data is not available. A zero was placed in the weight column if a weight was not attained, or the weight recorded was discarded during quality checks (outlier).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.083</rdommin>
+            <rdommax>26291.52691</rdommax>
+            <attrunit>grams</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+        <attrdef>Latitude for station. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>41.4560</rdommin>
+            <rdommax>41.9884</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>long</attrlabl>
+        <attrdef>Longitude for station. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-83.3835</rdommin>
+            <rdommax>-82.2476</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>WB_WaterQuality.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data. The WB_WaterQuality dataset contains depth specific water quality data (i.e. temperature, conductivity, pH, turbidity, chlorophyll, and dissolved oxygen) from trawl locations. A unique row is made up of a serial number, year, and a bin_depth_mean (average of the values recorded in the depth bin). This data set is linked to the WB_LengthWeight and WB_Catch data sets by a serial/year combination.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>serial</attrlabl>
+        <attrdef>USGS assigned identification number to distinguish sampling sites and events. Serial numbers are unique only within year.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>USGS assigned identification number to distinguish sampling sites and events. 100s represent sampling conducted in June, and 500s represent sampling conducted in September.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>day</attrlabl>
+        <attrdef>Day sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>13</rdommin>
+            <rdommax>25</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>month</attrlabl>
+        <attrdef>Month sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>Year sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2013</rdommin>
+            <rdommax>2021</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>season</attrlabl>
+        <attrdef>Season sampling occurred</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Spring</edomv>
+            <edomvd>June</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Autumn</edomv>
+            <edomvd>September</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>time</attrlabl>
+        <attrdef>Time of sampling; 24 hr (military) time. NA values indicate that data is not available.  Sampling conducted on eastern standard time.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>618</rdommin>
+            <rdommax>2333</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>bin_depth_min</attrlabl>
+        <attrdef>Indicates the maximum depth of that depth strata in which the water quality data was taken.  Depth bins/strata are in 1-meter intervals. Thus, -0.5 m indicates the surface of the water column. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.5</rdommin>
+            <rdommax>14.5</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>bin_depth_max</attrlabl>
+        <attrdef>Indicates the minimum depth of that depth strata in which the water quality data was taken.  Depth bins/strata are in 1-meter intervals. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.5</rdommin>
+            <rdommax>15.5</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>n</attrlabl>
+        <attrdef>Number of recorded observations (data values) in a depth bin. Multiple measurements are recorded in each depth bin and N denotes the number of measurements per bin.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>752</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>depth_mean</attrlabl>
+        <attrdef>Mean depth: average of the values recorded in the depth bin. Due to wave action at the surface, slightly negative depth values were sometimes recorded.  These events affected only a small portion of the data (August 2016 only-&gt;~10% of the water quality dataset).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>15</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>depth_sd</attrlabl>
+        <attrdef>Standard deviation of depth values recorded in the depth bin. NA values indicate either that only one value was available or no data were present.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0.667</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>depth_cv</attrlabl>
+        <attrdef>Coefficient of variation of depth. NA values indicate either that only one value was available or no data were present.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>5.733</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>temp_mean</attrlabl>
+        <attrdef>Mean water temperature: average of values available for the depth bin. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8.827</rdommin>
+            <rdommax>26.275</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>temp_sd</attrlabl>
+        <attrdef>Standard deviation of water temperature. NA values indicate either that only one value was available or no data were present.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>2.553</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>temp_cv</attrlabl>
+        <attrdef>Coefficient of variation of water temperature. NA values indicate either that only one value was available or no data were present.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>0.21</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>cond_mean</attrlabl>
+        <attrdef>Mean specific conductivity: average of values available for the depth bin. NA values indicate that data is not available. Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>0.429</rdommax>
+            <attrunit>micro-Siemens per centimeter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>cond_sd</attrlabl>
+        <attrdef>Standard deviation of specific conductivity. NA values indicate either that only one value was available or no data were present.  Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>0.144</rdommax>
+            <attrunit>micro-Siemens per centimeter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>cond_cv</attrlabl>
+        <attrdef>Coefficient of variation of specific conductivity. NA values indicate either that only one value was available or no data were present.  Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>5.333</rdommax>
+            <attrunit>micro-Siemens per centimeter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ph_mean</attrlabl>
+        <attrdef>Mean pH: average of values available for the depth bin. NA values indicate that data is not available.  Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>7.728</rdommin>
+            <rdommax>9.174</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ph_sd</attrlabl>
+        <attrdef>Standard deviation of pH. NA values indicate either that only one value was available or no data were present.  Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>0.245</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ph_cv</attrlabl>
+        <attrdef>Coefficient of variation of pH. NA values indicate either that only one value was available or no data were present.  Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>0.029</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>turb_units</attrlabl>
+        <attrdef>The reported units of turbidity. From 2012 - spring 2016, Turbidity is reported as Nephelometric Turbidity Units (NTU).  From autumn 2016 - present, Turbidity is reported as Percent Beam Attenuation (PBA). NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NTU</edomv>
+            <edomvd>Nephelometric Turbidity Units</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PBA</edomv>
+            <edomvd>Percent Beam Attenuation</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>turb_mean</attrlabl>
+        <attrdef>Mean turbidity: average of values available for the depth bin. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>970</rdommax>
+            <attrunit>Percent Beam Attenuation</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>turb_sd</attrlabl>
+        <attrdef>Standard deviation of turbidity: NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>638.381</rdommax>
+            <attrunit>Percent Beam Attenuation</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>turb_cv</attrlabl>
+        <attrdef>Coefficient of variation of turbidity: NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>24.802</rdommax>
+            <attrunit>Percent Beam Attenuation</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>chloro_mean</attrlabl>
+        <attrdef>Mean Chlorophyll: average of values available for the depth bin. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>86.108</rdommax>
+            <attrunit>micrograms per liter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>chloro_sd</attrlabl>
+        <attrdef>Standard deviation of Chlorophyll. NA values indicate either that only one value was available or no data were present.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>101.282</rdommax>
+            <attrunit>micrograms per liter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>chloro_cv</attrlabl>
+        <attrdef>Coefficient of variation of Chlorophyll. NA values indicate either that only one value was available or no data were present.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90.0</rdommax>
+            <attrunit>micrograms per liter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>do_percent_mean</attrlabl>
+        <attrdef>Mean percent saturation of dissolved oxygen: average of values available for the depth bin. NA values indicate that data is not available. All data is given as percent values.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>36.077</rdommin>
+            <rdommax>186.167</rdommax>
+            <attrunit>percent saturation</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>do_percent_sd</attrlabl>
+        <attrdef>Standard deviation of percent dissolved oxygen. NA values indicate either that only one value was available or no data were present.  All data is given as percent values.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>30.092</rdommax>
+            <attrunit>percent saturation</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>do_percent_cv</attrlabl>
+        <attrdef>Coefficient of variation of percent dissolved oxygen. NA values indicate that data is not available.  All data is given as percent values. Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>0.461</rdommax>
+            <attrunit>percent saturation</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>do_ppm_mean</attrlabl>
+        <attrdef>Mean concentration of dissolved oxygen in part per million (=mg/L): average of values available for the depth bin. NA values indicate that data is not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.344</rdommin>
+            <rdommax>15.575</rdommax>
+            <attrunit>milligrams per liter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>do_ppm_sd</attrlabl>
+        <attrdef>Standard deviation of dissolved oxygen concentration in ppm (=mg/L). NA values indicate either that only one value was available or no data were present.  Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>3.398</rdommax>
+            <attrunit>milligrams per liter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>do_ppm_cv</attrlabl>
+        <attrdef>Coefficient of variation of dissolved oxygen concentration in ppm (=mg/L). NA values indicate either that only one value was available or no data were present.  Zero indicates data were collected but no presence was detected.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>0.459</rdommax>
+            <attrunit>milligrams per liter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+        <attrdef>Latitude for station.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>41.4560</rdommin>
+            <rdommax>41.9884</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>long</attrlabl>
+        <attrdef>Longitude for station.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-83.3835</rdommin>
+            <rdommax>-82.2476</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+      <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P914EL20</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20220401</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Kevin Keretz</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Fisheries Technician</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>6100 Columbus Avenue</address>
+          <city>Sandusky</city>
+          <state>OHIO</state>
+          <postal>44870</postal>
+          <country>United States of America</country>
+        </cntaddr>
+        <cntvoice>4196251976</cntvoice>
+        <cntemail>kkeretz@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metuc>Record created using USGS Metadata Wizard tool. (https://github.com/usgs/fort-pymdwizard)</metuc>
+  </metainfo>
+</metadata>
