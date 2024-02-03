@@ -29,6 +29,7 @@
 # 总模型
 
 ## 用线性回归拟合性别比和幼体密度函数
+
 - 通过引用文献，说明性别比和成年体密度无明显联系
 - 密度不要用等级，用真实密度（只有等级的值用该等级平均密度代替）
 - 计算拟合优度
@@ -39,9 +40,12 @@
 
 ## 从幼体密度推算成体密度
 
+[参考文档](/eco%20to%20fish%20model/Survival%20and%20metamorphosis/Survival%20and%20metamorphosis.md)
+
 - **假设**：幼鱼期：4年，吸血（成年）期2年==快引点文献来证明==
 - **假设**：幼鱼每年存活率为0.627，引用文献《Survival and metamorphosis of larval sea lamprey (Petromyzon marinus) residing in Lakes Michigan and Huron near river mouths》
 - 密度等于单位体积（面积）的数量，因此下面都计算单位面积数量
+
 $$
 \begin{align*}
 &N^{larval}: 当前时刻单位体积幼鱼数量 \\
@@ -54,7 +58,9 @@ N^{larval} &= \sum^{D^{larval}}_{y=0} P_d B\\
 &= \left[\sum^{D^{larval}}_{y=0} P_y\right] B
 \end{align*}
 $$
+
 注：从今年，到4年前出生的所有未成年鱼，在今年都可能还未成年，在5年前出生的幼鱼，我们认为它要么死了，要么成年了
+
 $$
 \begin{align*}
 &P_d: d年前出生的幼鱼，存活到现在的概率\\
@@ -67,6 +73,7 @@ $$
 
 
 - **假设**：$\beta_0=−23.886、\beta_1=0.186$
+
 $$
 \begin{align*}
 &m_i:幼鱼在第i年变态为成年鱼的概率\\
@@ -83,7 +90,9 @@ m_i = \frac
   1.0 + exp[\beta_0 + \beta_1(\bar{l} + \Delta l_i)]
 }
 $$
+
 注：
+
 - $\beta_0、\beta_1$引用 《Survival and metamorphosis of larval sea lamprey (Petromyzon marinus) residing in Lakes Michigan and Huron near river mouths》 **β0 and β1 are parameters characterizing the length at which metamorphosis occurs**
 - m：使用了逻辑斯蒂回归模型，引用https://www.sciencedirect.com/science/article/abs/pii/S0380133013001846
 ![m随年份变化的曲线](/imgs/屏幕截图%202024-02-03%20100628.png)
@@ -91,6 +100,7 @@ $$
 
 **假设**：$L_{\infty}=159 mm$
 **假设**：$d=0.515年（188天）$
+
 $$
 \begin{align*}
 &\Delta l_i:i年前的鱼预期的长度变化量\\
@@ -100,7 +110,9 @@ $$
 \end{align*}\\
 \Delta l_i = (L_{\infty} - \bar{l})[1.0 - exp(-i \times d)]
 $$
+
 注：
+
 - $L_{\infty}159 mm$引用三篇论文
   - https://www.sciencedirect.com/science/article/abs/pii/S0380133008715880
   - https://benthamopen.com/ABSTRACT/TOFISHSJ-2-59
@@ -112,8 +124,10 @@ $$
 ![$\Delta l_i$随年份变化的曲线](/imgs/屏幕截图%202024-02-03%20100411.png)
 
 ### 将算出来的$P_y$、由性别比算出的密度带入最上面的公式，可以算出B
+
 还没写完，先看前面的
 **假设**：成年鱼存活率为1==快找个文献论证一下==
+
 $$
 \begin{align*}
 &N^{juvenile}: 当前时刻单位体积成年鱼数量 \\
@@ -123,4 +137,5 @@ $$
 \end{align*}\\
 N^{juvenile} = \sum^{D^{juvenile} - D^{larval}}_{y=1}P_{D^{larval}}B
 $$
+
 注：当前时刻成年鱼的数量，等于所有D^{larval}年前出生的鱼
