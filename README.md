@@ -53,6 +53,8 @@ $$
 &P_y: y年前出生的幼鱼，存活到现在的概率（计算公式见下文）\\
 &B: 每年出生的幼鱼数量（未知数，我们要解出B）\\
 \end{align*}\\
+$$
+$$
 \begin{align*}
 N^{larval} &= \sum^{D^{larval}}_{y=0} P_d B\\
 &= \left[\sum^{D^{larval}}_{y=0} P_y\right] B
@@ -67,7 +69,9 @@ $$
 &y: 时间段，当y=0时，不考虑死亡率、变态率，P_d=1\\
 &S^{larval}=0.627: 幼鱼每年存活率\\
 &m_i:幼鱼在第i年变态为成年鱼的概率（计算公式见下文）
-\end{align*}\\
+\end{align*}
+$$
+$$
 P_y = \prod^{y}_{i=1} S^{larval}(1-m_i)
 $$
 
@@ -81,7 +85,9 @@ $$
 &\beta_1=0.186\\
 &\bar{l}：鱼长度区间的中点（我们用平均/中位数长度代替（计算公式见下文））\\
 &\Delta l_i：i年前的鱼预期的长度变化量（计算公式见下文）
-\end{align*}\\
+\end{align*}
+$$
+$$
 m_i = \frac
 {
   exp[\beta_0 + \beta_1(\bar{l} + \Delta l_i)]
@@ -107,7 +113,9 @@ $$
 &L_{\infty}=159：渐进长度\\
 &\bar{l}=L_{\infty}/2=79.5mm：鱼长度区间的中点\\
 &d=0.515：对特定溪流的成长季时长（growing season duration）
-\end{align*}\\
+\end{align*}
+$$
+$$
 \Delta l_i = (L_{\infty} - \bar{l})[1.0 - exp(-i \times d)]
 $$
 
@@ -134,7 +142,9 @@ $$
 &D^{larval}: 幼虫时期的时长（duration），单位：年 \\
 &D^{juvenile}: 幼虫时期的时长（duration），单位：年 \\
 &P_{D^{larval}}: D^{larval}年及前出生的幼鱼，存活到现在的概率，即幼年鱼成为成年鱼的概率
-\end{align*}\\
+\end{align*}
+$$
+$$
 N^{juvenile} = \sum^{D^{juvenile} - D^{larval}}_{y=1}P_{D^{larval}}B
 $$
 
