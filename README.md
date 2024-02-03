@@ -1,27 +1,30 @@
 # fish-vs-eco
-
-文件树
 1. fish to eco
 * Bence2003论文：p寄生*p攻击后死亡=p死亡
 
 
 2. eco to fish
 * Lake Michigan: 幼年种群密度和juvenile（可以吸鱼的时期）的种群密度之间的关系（可以用来反推存活率）
-* t1b.xlsx：对density-%M的线性拟合，相关系数为0.5452, p = 0.0668 < 0.1, 说明在90%的置信水平上拒绝原假设，幼虫密度与雄性占比有显著的相关性
+ 
 
 3. database
-
 * commercial: 五大湖捕捞量（可以作为种群相对密度的数据）
 * erie: 仅lake erie的捕捞量（可以作为lake erie生态系统中种群相对密度的数据）
 * LakeErieFish: 五大湖中之一的鱼抽样数据（可以做lake erie生态系统中鱼的体重和游泳距离的数据）
   * Length
   * weight
   * water quality
+* 五大湖七鳃鳗入侵防治时间线
 
-3. pictures
 
+4. Task 1
+* t1b.xlsx：对density-%M的线性拟合，相关系数为0.5452, p = 0.0668 < 0.1, 说明在90%的置信水平上拒绝原假设，幼虫密度与雄性占比有显著的相关性
+
+
+5. pictures
 * life cycle of fish：鳗鱼的生命周期图
 * problem overview: 第一天腾讯会议的图
+
 
 # 总模型
 
