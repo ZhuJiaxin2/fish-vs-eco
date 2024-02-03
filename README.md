@@ -229,7 +229,7 @@ $$
 
 $$
 a_i = \frac{F\lambda_i N_i}
-           {1 + \sum_j \lambda_j N_i h_j}
+           {1 + \sum_j \lambda_j N_j h_j}
 $$
 
 - **假设**：所有物种的h都相同（不会造成极端影响）
