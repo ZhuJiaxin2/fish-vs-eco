@@ -2,7 +2,7 @@ clear;close;clc
 i = 0;
 for Malerate = 0:10:100
     i = i + 1;
-    N_larval(i) = 47.459 * Malerate + 40.89;
+    N_larval(i) = 0.0063 * Malerate - 0.1582;
     N_juvenile(i) = juvenile_density(N_larval(i));
 end
 
