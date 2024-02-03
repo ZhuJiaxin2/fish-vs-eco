@@ -213,29 +213,34 @@ $$
 
 这样，就从性别比，幼虫密度到出生量B，计算出了当前成年个体的数量
 
-# 计算七鳃鳗密度对各种鱼类的影响
+## 计算七鳃鳗密度对各种鱼类的影响
 
+[参考文档](./fish%20to%20eco%20model/Sea%20Lamprey%20Parasite-host%20Interactions/Sea%20Lamprey%20Parasite-host%20Interactions.md)
 $$
 \begin{align*}
 &a_i：寄生生物对第i种宿主的攻击次数\\
-&F：进食季节长度\\
+&F=0.41：进食季节长度\\
 &N_i：第i种宿主的密度\\
-&\lambda_i：对第i种宿主的有效搜索率\\
-&h_i：第i种宿主附着时间\\
-&L_i：宿主长度（mm）
+&\lambda_i=S_i=7.884L_i：对第i种宿主的有效搜索率\\
+&h_i=0.0548：第i种宿主附着时间\\
+&L_i：宿主长度（mm）\\
 \end{align*}
 $$
 
 $$
 a_i = \frac{F\lambda_i N_i}
-           {1 + \sum_j \lambda_j h_j}
+           {1 + \sum_j \lambda_j N_i h_j}
 $$
 
 - **假设**：所有物种的h都相同（不会造成极端影响）
     - 引用：Although handling times will really vary among host types, this assumption is not as extreme as it first appears because it is applied only to the larger host species that form a substantial portion of the diet during the summer and autumn feeding season that is being modeled. **《Sea Lamprey (Petromyzon marinus) Parasite-host Interactions》**
 - **假设**：$F = 0.41, h = 0.0548$ 引用：http://www.glfc.org/pubs/SpecialPubs/Sp89_1.pdf
 - **假设**：$\lambda_i$：对第i种宿主的有效搜索率主要由distance swum（$S$）决定，而$S_i = 7.884L_i$ The constant 7.884 (km/mm attack season) assumes an average swimming speed of 0.61 body lengths/s 引用《Sea Lamprey (Petromyzon marinus) Parasite-host Interactions in the Great Lakes》Bence2003
-
+#### 加入各种假设后，模型简化为
+$$
+a_i = \frac{F S_i N_i}
+           {1 + \sum_j S_j N_j h}
+$$
 
 $$
 \begin{align*}
