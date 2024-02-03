@@ -24,7 +24,7 @@ d = 0.515;          %对特定溪流的成长季时长，年
 
 % 计算B的值
 sum = 0;
-for y = 1:D_larval
+for y = 0:D_larval
     sum = sum + P_y(y,S_larval, beta_0, beta_1, l_bar, l_inf, d);
 end
 B = N_larval / sum;
