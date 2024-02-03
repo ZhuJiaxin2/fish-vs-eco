@@ -5,7 +5,7 @@
 
 2. eco to fish
 * Lake Michigan: 幼年种群密度和juvenile（可以吸鱼的时期）的种群密度之间的关系（可以用来反推存活率）
- 
+
 
 3. database
 * commercial: 五大湖捕捞量（可以作为种群相对密度的数据）
@@ -36,11 +36,11 @@
 - 证明两个数据线性相关，计算皮尔逊相关系数
 - 检验皮尔逊相关系数是否显著：夏皮洛-威尔克检验（可直接用spss计算，具体算出在p=？下可拒绝原假设）
 - 把皮尔逊相关系数和夏皮洛-威尔克检验的公式写上，显得高端
-- 数据见[数据文档](/eco%20to%20fish%20model/Age,%20growth,%20and%20sex%20ratio%20.md)
+- 数据见[数据文档](./eco%20to%20fish%20model/Age,%20growth,%20and%20sex%20ratio%20.md)
 
 ## 从幼体密度推算成体密度
 
-[参考文档](/eco%20to%20fish%20model/Survival%20and%20metamorphosis/Survival%20and%20metamorphosis.md)
+[参考文档](./eco%20to%20fish%20model/Survival%20and%20metamorphosis/Survival%20and%20metamorphosis.md)
 
 - **假设**：幼鱼期：4年，吸血（成年）期2年==快引点文献来证明==
 - **假设**：幼鱼每年存活率为0.627，引用文献《Survival and metamorphosis of larval sea lamprey (Petromyzon marinus) residing in Lakes Michigan and Huron near river mouths》
@@ -50,7 +50,7 @@ $$
 \begin{align*}
 &N^{larval}: 当前时刻单位体积幼鱼数量 \\
 &D^{larval}: 幼虫时期的时长（duration），单位：年 \\
-&P_y: y年前出生的幼鱼，存活到现在的概率（计算公式见下文）\\
+&P_y: y年前出生的幼鱼，存活到现在并且没有变态的概率（计算公式见下文）\\
 &B: 每年出生的幼鱼数量（未知数，我们要解出B）\\
 \end{align*}\\
 $$
@@ -65,8 +65,8 @@ $$
 
 $$
 \begin{align*}
-&P_d: d年前出生的幼鱼，存活到现在的概率\\
-&y: 时间段，当y=0时，不考虑死亡率、变态率，P_d=1\\
+&P_y: y年前出生的幼鱼，存活到现在的概率且没有变态的概率\\
+&y: 时间段，当y=0时，不考虑死亡率、变态率，P_y=1\\
 &S^{larval}=0.627: 幼鱼每年存活率\\
 &m_i:幼鱼在第i年变态为成年鱼的概率（计算公式见下文）
 \end{align*}
@@ -101,7 +101,7 @@ $$
 
 - $\beta_0、\beta_1$引用 《Survival and metamorphosis of larval sea lamprey (Petromyzon marinus) residing in Lakes Michigan and Huron near river mouths》 **β0 and β1 are parameters characterizing the length at which metamorphosis occurs**
 - m：使用了逻辑斯蒂回归模型，引用https://www.sciencedirect.com/science/article/abs/pii/S0380133013001846
-![m随年份变化的曲线](/imgs/屏幕截图%202024-02-03%20100628.png)
+![m随年份变化的曲线](./imgs/屏幕截图%202024-02-03%20100628.png)
 
 
 **假设**：$L_{\infty}=159 mm$
@@ -129,23 +129,86 @@ $$
   - von Bertalanffy growth equation
   - 《Survival and metamorphosis of larval sea lamprey (Petromyzon marinus) residing in Lakes Michigan and Huron near river mouths》
 - $d=188天$引用：https://www.sciencedirect.com/science/article/abs/pii/S0380133003704845
-![$\Delta l_i$随年份变化的曲线](/imgs/屏幕截图%202024-02-03%20100411.png)
+![$\Delta l_i$随年份变化的曲线](./imgs/屏幕截图%202024-02-03%20100411.png)
 
-### 将算出来的$P_y$、由性别比算出的密度带入最上面的公式，可以算出B
+### 将算出来的$P_y$、性别比算出的密度带入最上面的公式，可以算出B
 
-还没写完，先看前面的
 **假设**：成年鱼存活率为1==快找个文献论证一下==
 
 $$
 \begin{align*}
 &N^{juvenile}: 当前时刻单位体积成年鱼数量 \\
-&D^{larval}: 幼虫时期的时长（duration），单位：年 \\
-&D^{juvenile}: 幼虫时期的时长（duration），单位：年 \\
-&P_{D^{larval}}: D^{larval}年及前出生的幼鱼，存活到现在的概率，即幼年鱼成为成年鱼的概率
+&D^{larval}: 未成年时期的时长（duration），单位：年 \\
+&D^{juvenile}: 成年时期的时长（duration），单位：年 \\
+&S^{larval}=0.627: 幼鱼每年存活率\\
+&P_y: 幼鱼存活y年，且没有变态的概率（前面算过了）\\
+&R_{y}: y年前出生的鱼，在今年或之前成年并存活的概率\\
+&m_i:幼鱼在第i年变态为成年鱼的概率\\
+&B: 每年出生的幼鱼数量
 \end{align*}
 $$
+
+思路：今年成年鱼的数量，等于寿命时间范围内，每年出生的鱼的数量，乘这些鱼存活并变态的概率
+
+今年出生的未成年鱼不会成年
+1年前出生的未成年鱼今年成年的概率等于**存活一年**并**变态**
 $$
-N^{juvenile} = \sum^{D^{juvenile} - D^{larval}}_{y=1}P_{D^{larval}}B
+R_1 = S^{larval}  m_1
+$$
+2年前出生的未成年鱼现在成年且存活的概率等于：出生就成年（概率为0） + 幼鱼存活1年再成年 + 幼鱼存活2年，今年成年
+$$
+\begin{align*}
+R_2 &= S^{larval}  m_1 \\
+&+ S^{larval} (1-m_1) \times S^{larval} m_2
+\end{align*}
 $$
 
-注：当前时刻成年鱼的数量，等于所有D^{larval}年前出生的鱼
+3年前出生的未成年鱼现在成年且存活的概率等于：出生就成年（概率为0） + 幼鱼存活1年再成年 + 幼鱼存活2年再成年 + 幼鱼存活3年再成年
+$$
+\begin{align*}
+R_3 &= S^{larval}  m_1 \\
+&+ S^{larval} (1-m_1) \times S^{larval} m_2\\
+&+ S^{larval} (1-m_1) \times S^{larval} (1-m_2) \times S^{larval} m_3
+\end{align*}
+$$
+
+4年前出生的未成年鱼现在成年且存活的概率等于：出生就成年（概率为0） + 幼鱼存活1年再成年(但是成年后活了2年就死了) + 幼鱼存活2年再成年 + 幼鱼存活3年再成年 + 幼鱼存活4年再成年
+$$
+\begin{align*}
+R_4 &= S^{larval} (1-m_1) \times S^{larval} m_2\\
+&+ S^{larval} (1-m_1) \times S^{larval} (1-m_2) \times S^{larval} m_3\\
+&+ S^{larval} (1-m_1) \times S^{larval} (1-m_2) \times  S^{larval} (1-m_3) \times S^{larval} m_4
+\end{align*}
+$$
+
+5年前出生的未成年鱼现在成年且存活的概率等于：出生就成年（概率为0） + 幼鱼存活1年再成年(但是成年后活了2年就死了) + 幼鱼存活2年再成年(但是成年后活了2年就死了) + 幼鱼存活3年再成年 + 幼鱼存活4年再成年
+$$
+\begin{align*}
+R_5 &= S^{larval} (1-m_1) \times S^{larval} (1-m_2) \times S^{larval} m_3\\
+&+ S^{larval} (1-m_1) \times S^{larval} (1-m_2) \times  S^{larval} (1-m_3) \times S^{larval} m_4
+\end{align*}
+$$
+
+6年前出生的未成年鱼现在成年且存活的概率等于：出生就成年（概率为0） + 幼鱼存活1年再成年(但是成年后活了2年就死了) + 幼鱼存活2年再成年(但是成年后活了2年就死了) + 幼鱼存活3年再成年(但是成年后活了2年就死了) + 幼鱼存活4年再成年
+$$
+\begin{align*}
+R_6 &=  S^{larval} (1-m_1) \times S^{larval} (1-m_2) \times  S^{larval} (1-m_3) \times S^{larval} m_4
+\end{align*}
+$$
+
+如果一个幼虫超过4年了还没成年，我们认为他已经死了
+
+总公式如下：
+$$
+R_y = \sum_{i=max(y-D^{juvenile}, 0)}^{min(y,D^{larval})} P_{i-1} S^{larval} m_i\\
+P_0 = 1\\
+y = 1, 2...(D^{larval} + D^{juvenile})
+$$
+
+$$
+N^{juvenile} = \sum^{D^{juvenile} + D^{larval}}_{y=1} R_y B
+$$
+
+注：当前时刻成年鱼的数量，等于所有$D^{juvenile} + D^{larval}$年前出生的鱼
+
+这样，就从性别比，幼虫密度到出生量B，计算出了当前成年个体的数量
