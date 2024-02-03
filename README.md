@@ -44,6 +44,7 @@
 
 - **假设**：幼鱼期：4年，吸血（成年）期2年，引用 [Minnesota DNR](https://www.dnr.state.mn.us/invasives/aquaticanimals/sealamprey/index.html)
 - **假设**：幼鱼每年存活率为0.627，引用文献《Survival and metamorphosis of larval sea lamprey (Petromyzon marinus) residing in Lakes Michigan and Huron near river mouths》
+- **假设**：环境处在稳态，每年的出生数量一样
 - 密度等于单位体积（面积）的数量，因此下面都计算单位面积数量
 
 $$
@@ -211,3 +212,55 @@ $$
 注：当前时刻成年鱼的数量，等于所有$D^{juvenile} + D^{larval}$年前出生的鱼
 
 这样，就从性别比，幼虫密度到出生量B，计算出了当前成年个体的数量
+
+# 计算七鳃鳗密度对各种鱼类的影响
+
+$$
+\begin{align*}
+&a_i：寄生生物对第i种宿主的攻击次数\\
+&F：进食季节长度\\
+&N_i：第i种宿主的密度\\
+&\lambda_i：对第i种宿主的有效搜索率\\
+&h_i：第i种宿主附着时间\\
+&L_i：宿主长度（mm）
+\end{align*}
+$$
+
+$$
+a_i = \frac{F\lambda_i N_i}
+           {1 + \sum_j \lambda_j h_j}
+$$
+
+- **假设**：所有物种的h都相同（不会造成极端影响）
+    - 引用：Although handling times will really vary among host types, this assumption is not as extreme as it first appears because it is applied only to the larger host species that form a substantial portion of the diet during the summer and autumn feeding season that is being modeled. **《Sea Lamprey (Petromyzon marinus) Parasite-host Interactions》**
+- **假设**：$F = 0.41, h = 0.0548$ 引用：http://www.glfc.org/pubs/SpecialPubs/Sp89_1.pdf
+- **假设**：$\lambda_i$：对第i种宿主的有效搜索率主要由distance swum（$S$）决定，而$S_i = 7.884L_i$ The constant 7.884 (km/mm attack season) assumes an average swimming speed of 0.61 body lengths/s 引用《Sea Lamprey (Petromyzon marinus) Parasite-host Interactions in the Great Lakes》Bence2003
+
+
+$$
+\begin{align*}
+&M_i：攻击瞬间死亡率（年死亡率）\\
+&A_i：每个宿主平均受攻击次数（年受攻击次数）\\
+&P_s：宿主每次受攻击生存率
+\end{align*}
+$$
+
+$$
+M_i = (1 - P_s)A_i
+$$
+
+- **假设**：$P_s=0.25$ 引用：https://cdnsciencepub.com/doi/abs/10.1139/f80-243
+
+$$
+\begin{align*}
+&A_i：每个宿主平均受攻击次数（年受攻击次数）\\
+&L：七鳃鳗数量（密度）\\
+&N_i：第i种宿主的密度
+\end{align*}
+$$
+
+$$
+A_i = \frac{a_iL}{N_i}
+$$
+
+**这样，就能从七鳃鳗密度、宿主数量密度、宿主长度，计算出某鱼类物种受七鳃鳗攻击的年死亡率（相对）**
