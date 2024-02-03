@@ -35,3 +35,4 @@ for y = 1:(D_larval + D_juvenile)
     sum = sum + R_y(y, D_larval, D_juvenile, S_larval, beta_0, beta_1, l_bar, l_inf, d) * B;
 end
 N_juvenile = sum;
+B,N_juvenile
