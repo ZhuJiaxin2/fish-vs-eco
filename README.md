@@ -42,7 +42,7 @@
 
 [参考文档](./eco%20to%20fish%20model/Survival%20and%20metamorphosis/Survival%20and%20metamorphosis.md)
 
-- **假设**：幼鱼期：4年，吸血（成年）期2年==快引点文献来证明==
+- **假设**：幼鱼期：4年，吸血（成年）期2年，引用 [Minnesota DNR](https://www.dnr.state.mn.us/invasives/aquaticanimals/sealamprey/index.html)
 - **假设**：幼鱼每年存活率为0.627，引用文献《Survival and metamorphosis of larval sea lamprey (Petromyzon marinus) residing in Lakes Michigan and Huron near river mouths》
 - 密度等于单位体积（面积）的数量，因此下面都计算单位面积数量
 
@@ -56,7 +56,7 @@ $$
 $$
 $$
 \begin{align*}
-N^{larval} &= \sum^{D^{larval}}_{y=0} P_d B\\
+N^{larval} &= \sum^{D^{larval}}_{y=0} P_y B\\
 &= \left[\sum^{D^{larval}}_{y=0} P_y\right] B
 \end{align*}
 $$
@@ -65,7 +65,7 @@ $$
 
 $$
 \begin{align*}
-&P_y: y年前出生的幼鱼，存活到现在的概率且没有变态的概率\\
+&P_y: y年前出生的幼鱼，存活到现在且没有变态的概率\\
 &y: 时间段，当y=0时，不考虑死亡率、变态率，P_y=1\\
 &S^{larval}=0.627: 幼鱼每年存活率\\
 &m_i:幼鱼在第i年变态为成年鱼的概率（计算公式见下文）
@@ -147,7 +147,7 @@ $$
 \end{align*}
 $$
 
-思路：今年成年鱼的数量，等于寿命时间范围内，每年出生的鱼的数量，乘这些鱼存活并变态的概率
+**思路**：今年成年鱼的数量，等于寿命时间范围内，每年出生的鱼的数量，乘这些鱼存活并变态的概率
 
 今年出生的未成年鱼不会成年
 1年前出生的未成年鱼今年成年的概率等于**存活一年**并**变态**
