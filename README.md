@@ -221,10 +221,27 @@ $$
 &a_i：寄生生物对第i种宿主的攻击次数\\
 &F=0.41：进食季节长度\\
 &N_i：第i种宿主的密度\\
-&\lambda_i=S_i=7.884L_i：对第i种宿主的有效搜索率\\
+&\lambda_i：对第i种宿主的有效搜索率\\
+&S_i：在攻击季节宿主游泳的距离\\
+&P_S：在攻击中存活的概率\\
 &h_i=0.0548：第i种宿主附着时间\\
 &L_i：宿主长度（mm）\\
+&PR：\frac{七鳃鳗质量}{宿主质量}
 \end{align*}
+$$
+
+七鳃鳗质量 = 200.9 (173.5, 203)
+
+$$
+\lambda_i = S_i
+$$
+
+$$
+S_i =  7.884L_i
+$$
+
+$$
+P_S = 1 - \frac{PR^2}{1 + PR^2}
 $$
 
 $$
@@ -235,12 +252,8 @@ $$
 - **假设**：所有物种的h都相同（不会造成极端影响）
     - 引用：Although handling times will really vary among host types, this assumption is not as extreme as it first appears because it is applied only to the larger host species that form a substantial portion of the diet during the summer and autumn feeding season that is being modeled. **《Sea Lamprey (Petromyzon marinus) Parasite-host Interactions》**
 - **假设**：$F = 0.41, h = 0.0548$ 引用：http://www.glfc.org/pubs/SpecialPubs/Sp89_1.pdf
-- **假设**：$\lambda_i$：对第i种宿主的有效搜索率主要由distance swum（$S$）决定，而$S_i = 7.884L_i$ The constant 7.884 (km/mm attack season) assumes an average swimming speed of 0.61 body lengths/s 引用《Sea Lamprey (Petromyzon marinus) Parasite-host Interactions in the Great Lakes》Bence2003
-#### 加入各种假设后，模型简化为
-$$
-a_i = \frac{F S_i N_i}
-           {1 + \sum_j S_j N_j h}
-$$
+- **假设**：$\lambda_i$：对第i种宿主的有效搜索率 引用《Sea Lamprey (Petromyzon marinus) Parasite-host Interactions in the Great Lakes》Bence2003
+
 
 $$
 \begin{align*}
@@ -254,7 +267,8 @@ $$
 M_i = (1 - P_s)A_i
 $$
 
-- **假设**：$P_s=0.25$ 引用：https://cdnsciencepub.com/doi/abs/10.1139/f80-243
+==现在不用这个假设了==
+> - **假设**：$P_s=0.25$ 引用：https://cdnsciencepub.com/doi/abs/10.1139/f80-243
 
 $$
 \begin{align*}
