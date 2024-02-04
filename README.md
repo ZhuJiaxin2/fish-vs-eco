@@ -313,7 +313,7 @@ $$
 $$
 
 $$
-\frac{\mathrm{d} N_{PF}}{\mathrm{d} t} = R_P (1-M_{BP}) N_P' + \beta f(1-M_U) N_U - \beta (1-M_P) N_P
+\frac{\mathrm{d} N_{PF}}{\mathrm{d} t} = R_P (1-M_{BP}) N_P' + \beta (1-M_U) N_U - \beta (1-M_P) N_P
 $$
 
 $$
@@ -350,7 +350,7 @@ $$
 M_U = \frac{N_{UM}}{N_{UM} + N_{UF}}
 $$
 
-# 环境稳定性
+## 环境稳定性
 
 物种多样性：物种多样性指数（物种数量、物种均匀度）
 
