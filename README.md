@@ -279,6 +279,8 @@ $$
 - 两环境由于资源不同，自然增长率不同
   - $R_P = \alpha_P[min(1 - M_P, M_P)]$
   - $R_U = \alpha_U[min(1 - M_U, M_U)]$
+  - 引用：《Field study suggests that sexdetermination in sea lamprey is directlyinfluenced by larval growth rate》 《Survival and metamorphosis of low-density populations of larval sea lampreys (Petromyzon marinus) in streams》《Survival and metamorphosis of larval sea lamprey (Petromyzon marinus) residing near river mouths in lakes Michigan and Huron. J. Great Lakes》
+  > Previous population demographic work showed that larvae reared in lenticenvironments grew two to four times slower and metamorphosed into the parasitic stage at smaller sizes than larvae from the stream environments [22,24].
 - 假设只考虑短期变化，种群无死亡
 - (假设自然增长率 + 1)就是种群数量（$N_P, N_U$）的导数
 - 由于水流运动，两环境会有$\beta$%的七鳃鳗交换
@@ -289,6 +291,7 @@ productive环境中
 $$
 \begin{align*}
 &N_{PF}：雌性数量\\
+&N_{PF}'：雌性繁殖能力\\
 &N_{PM}：雄性数量\\
 &N_{P} = N_{PF} + N_{PM}：总数量\\
 &R_P：自然增长率\\
@@ -296,7 +299,7 @@ $$
 &M_P：雄性占比\\
 &\alpha_P：系数（常数）\\
 &\beta：系数（常数）\\
-&\gamma=3：P环境中雌性七鳃鳗繁殖能力比U环境中强的倍数 
+&\gamma：P环境中雌性七鳃鳗繁殖能力比U环境中强的倍数 
 \end{align*}
 $$
 
@@ -336,4 +339,30 @@ $$
 
 $$
 M_U = \frac{N_{UM}}{N_{UM} + N_{UF}}
+$$
+
+# 环境稳定性
+
+物种多样性：物种多样性指数（物种数量、物种均匀度）
+
+$$
+\begin{align*}
+&H：物种占比的信息熵\\
+&P_i：第i个物种的占比（频率）\\
+&R_i：第i个物种减少量（相对值）\\
+&N：物种总数 \\
+&D：物种多样性指数 \\
+\end{align*}
+$$
+
+$$
+H = -\sum_{i=1}^{N} P_i log_2 P_i
+$$
+
+$$
+\bar R = \frac{\sum_{i=1}^{N}R_i}{N}
+$$
+
+$$
+D = \frac{H + (1-tanh(\bar R))}{2} \quad D越大越好
 $$
