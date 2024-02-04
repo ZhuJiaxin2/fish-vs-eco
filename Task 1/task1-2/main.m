@@ -1,6 +1,6 @@
 clear;close;clc
 i = 0;
-for Malerate = 0:10:100
+for Malerate = 40:1:80
     i = i + 1;
     N_larval(i) = 0.0063 * Malerate - 0.1582;
     N_juvenile(i) = juvenile_density(N_larval(i));
@@ -8,14 +8,14 @@ end
 
 matrix = deathnum(N_juvenile);
 
-x_values = 0:10:100;
+x_values = 0.4:0.01:0.8;
 
 % 绘制每组数据的曲线
 figure;
 hold on;
 
 for i = 1:size(matrix, 1)
-    plot(x_values, matrix(i, :), 'DisplayName', ['Curve ' num2str(i)]);
+    plot(x_values ./ (1 - x_values), matrix(i, :), 'DisplayName', ['Curve ' num2str(i)]);
 end
 
 % 添加标题和标签
@@ -28,7 +28,7 @@ hold off;
 % 绘制平均曲线
 figure;
 average_curve = mean(matrix, 1);
-plot(x_values, average_curve, 'LineWidth', 2, 'DisplayName', 'Average Curve');
+plot(x_values ./ (1 - x_values), average_curve, 'LineWidth', 2, 'DisplayName', 'Average Curve');
 
 % 添加标题和标签
 title('Average Curve from a 37x11 Matrix');
