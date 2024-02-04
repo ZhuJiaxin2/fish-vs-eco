@@ -294,9 +294,10 @@ $$
 &N_{PF}'：雌性繁殖能力\\
 &N_{PM}：雄性数量\\
 &N_{P} = N_{PF} + N_{PM}：总数量\\
+&N_{P}' = N_{PF}' + N_{PM}：总繁殖能力\\
 &R_P：自然增长率\\
 &M_{BP}：出生七鳃鳗中雄性比例（常数）\\
-&M_P：雄性占比\\
+&M_P：雄性繁殖能力占比\\
 &\alpha_P：系数（常数）\\
 &\beta：系数（常数）\\
 &\gamma：P环境中雌性七鳃鳗繁殖能力比U环境中强的倍数 
@@ -308,11 +309,15 @@ $$
 $$
 
 $$
-\frac{\mathrm{d} N_{PM}}{\mathrm{d} t} = R_P M_{BP} N_P + \beta M_U N_U - \beta M_P N_P
+\frac{\mathrm{d} N_{PM}}{\mathrm{d} t} = R_P M_{BP} N_P' + \beta M_U N_U - \beta M_P N_P
 $$
 
 $$
-\frac{\mathrm{d} N_{PF}}{\mathrm{d} t} = R_P (1-M_{BP}) N_P + \beta \frac{1}{\gamma} (1-M_U) N_U - \beta (1-M_P) N_P
+\frac{\mathrm{d} N_{PF}}{\mathrm{d} t} = R_P (1-M_{BP}) N_P' + \beta f(1-M_U) N_U - \beta (1-M_P) N_P
+$$
+
+$$
+\frac{\mathrm{d} N_{PF}'}{\mathrm{d} t} = R_P (1-M_{BP}) N_P' + \beta \frac{1}{\gamma} (1-M_U) N_U - \beta (1-M_P) N_P
 $$
 
 $$
@@ -326,11 +331,15 @@ $$
 unproductive环境中把P改成U,增加gamma突出两个环境的不平衡性
 
 $$
-\frac{\mathrm{d} N_{UM}}{\mathrm{d} t} = R_U M_{BU} N_U + \beta M_P N_P - \beta M_U N_U
+\frac{\mathrm{d} N_{UM}}{\mathrm{d} t} = R_U M_{BU} N_U' + \beta M_P N_P - \beta M_U N_U
 $$
 
 $$
-\frac{\mathrm{d} N_{UF}}{\mathrm{d} t} = R_U (1-M_{BU}) N_U + \beta \gamma (1-M_P) N_P - \beta (1-M_U) N_U
+\frac{\mathrm{d} N_{UF}}{\mathrm{d} t} = R_U (1-M_{BU}) N_U' + \beta (1-M_P) N_P - \beta (1-M_U) N_U
+$$
+
+$$
+\frac{\mathrm{d} N_{UF}'}{\mathrm{d} t} = R_U (1-M_{BU}) N_U' + \beta \gamma (1-M_P) N_P - \beta (1-M_U) N_U
 $$
 
 $$
