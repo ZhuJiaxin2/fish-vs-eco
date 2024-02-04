@@ -1,11 +1,11 @@
-clear;close;clc
+clear;close;
 
 ap = 1;
-au = 0.75;
+au = 0.4;
 mp = 0.4;
 mu = 0.8;
-b = 0.3;
-r = 3;
+b = 0.4;
+r = 4;
 
 ode_system = @(t, y) [
     ap * mp * min(y(1), y(2)) + b * (y(3) - y(1)); %Npm
@@ -31,3 +31,5 @@ xlabel('Time');
 ylabel('Num');
 legend('Npm', 'Num', 'Npf', 'Nuf');
 title('env and sex rate');
+
+disp(sum(y_pic(end, :)))
