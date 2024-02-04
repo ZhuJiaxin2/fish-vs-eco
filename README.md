@@ -299,11 +299,15 @@ $$
 $$
 
 $$
-\frac{\mathrm{d} N_{PM}}{\mathrm{d} t} = R_P M_{BP} N_P + \beta M_U N_U
+思路：雄性增长率=自然增长率\times 总数 \times 出生雄性占比 + 迁移速率\times 另一环境总数 \times另一环境雄性占比 - 迁出数量
 $$
 
 $$
-\frac{\mathrm{d} N_{PF}}{\mathrm{d} t} = R_P (1-M_{BP}) N_P + \beta (1-M_U) N_U
+\frac{\mathrm{d} N_{PM}}{\mathrm{d} t} = R_P M_{BP} N_P + \beta M_U N_U - \beta M_P N_P
+$$
+
+$$
+\frac{\mathrm{d} N_{PF}}{\mathrm{d} t} = R_P (1-M_{BP}) N_P + \beta (1-M_U) N_U - \beta (1-M_P) N_P
 $$
 
 $$
@@ -317,11 +321,11 @@ $$
 unproductive环境中同理，把P改成U
 
 $$
-\frac{\mathrm{d} N_{UM}}{\mathrm{d} t} = R_U M_{BU} N_U + \beta M_P N_P
+\frac{\mathrm{d} N_{UM}}{\mathrm{d} t} = R_U M_{BU} N_U + \beta M_P N_P - \beta M_U N_U
 $$
 
 $$
-\frac{\mathrm{d} N_{UF}}{\mathrm{d} t} = R_U (1-M_{BU}) N_P + \beta (1-M_P) N_P
+\frac{\mathrm{d} N_{UF}}{\mathrm{d} t} = R_U (1-M_{BU}) N_P + \beta (1-M_P) N_P - \beta (1-M_U) N_U
 $$
 
 $$
