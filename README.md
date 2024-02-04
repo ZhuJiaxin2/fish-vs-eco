@@ -281,7 +281,8 @@ $$
   - $R_U = \alpha_U[min(1 - M_U, M_U)]$
 - 假设只考虑短期变化，种群无死亡
 - (假设自然增长率 + 1)就是种群数量（$N_P, N_U$）的导数
-- 由于水流运动，两环境种会有各自$\beta$%的七鳃鳗进入对方环境
+- 由于水流运动，两环境会有$\beta$%的七鳃鳗交换
+- 由于营养不良，U环境中雌性七鳃鳗进入P环境后，繁殖能力不能和P环境中雌性七鳃鳗相比。P环境七鳃鳗进入U环境中，繁殖能力超过U中雌性七鳃鳗
 - 假设两环境种的出生七鳃鳗性别比为：$M_{BP}、M_{BU}$，即两环境种出生雄性占比（不同于总雄性占比）
 
 productive环境中
@@ -294,7 +295,8 @@ $$
 &M_{BP}：出生七鳃鳗中雄性比例（常数）\\
 &M_P：雄性占比\\
 &\alpha_P：系数（常数）\\
-&\beta：系数（常数）
+&\beta：系数（常数）\\
+&\gamma=3：P环境中雌性七鳃鳗繁殖能力比U环境中强的倍数 
 \end{align*}
 $$
 
@@ -307,7 +309,7 @@ $$
 $$
 
 $$
-\frac{\mathrm{d} N_{PF}}{\mathrm{d} t} = R_P (1-M_{BP}) N_P + \beta (1-M_U) N_U - \beta (1-M_P) N_P
+\frac{\mathrm{d} N_{PF}}{\mathrm{d} t} = R_P (1-M_{BP}) N_P + \beta \frac{1}{\gamma} (1-M_U) N_U - \beta (1-M_P) N_P
 $$
 
 $$
@@ -318,14 +320,14 @@ $$
 M_P = \frac{N_{PM}}{N_{PM} + N_{PF}}
 $$
 
-unproductive环境中同理，把P改成U
+unproductive环境中把P改成U,增加gamma突出两个环境的不平衡性
 
 $$
 \frac{\mathrm{d} N_{UM}}{\mathrm{d} t} = R_U M_{BU} N_U + \beta M_P N_P - \beta M_U N_U
 $$
 
 $$
-\frac{\mathrm{d} N_{UF}}{\mathrm{d} t} = R_U (1-M_{BU}) N_P + \beta (1-M_P) N_P - \beta (1-M_U) N_U
+\frac{\mathrm{d} N_{UF}}{\mathrm{d} t} = R_U (1-M_{BU}) N_U + \beta \gamma (1-M_P) N_P - \beta (1-M_U) N_U
 $$
 
 $$
