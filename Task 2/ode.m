@@ -12,6 +12,7 @@ r = 3;
 ode_system = @(t, y) [
     ap * mp * min(y(1), y(2)) + b * (y(3) - y(1));
     ap * (1 - mp) * min(y(1), y(2)) + b * (y(4) / r - y(2));
+    ap * (1 - mp) * min(y(1), y(2)) + b * (y(4) / r - y(2));
     au * mu * min(y(3), y(4)) + b * (y(1) - y(3));
     au * (1 - mu) * min(y(3), y(4)) + b * (y(2) * r - y(4));
     ap * (1 - mp) * min(y(1), y(2)) + b * (y(6) - y(5));
