@@ -1,5 +1,5 @@
-% 输出直接的变化趋势原图像
-clear;close;clc
+% Direct trend plot of the output
+clear; close; clc
 
 i = 0;
 for x = -0.1:0.01:0.15
@@ -18,19 +18,26 @@ x1 = -0.1:0.01:0.15;
 x2 = 0.1:0.2:5;
 
 figure(1)
-plot(x1 + 0.8 ,sex);
+plot(x1 + 0.8, sex);
 xlabel('sumnum');
 ylabel('sex');
-title('sex');
+title('Sex');
+
 figure(2)
-plot(x1 + 1,birth);
+plot(x1 + 1, birth);
 xlabel('sumnum');
 ylabel('birth');
-title('birth');
+title('Birth');
+
 figure(3)
-plot(x2,r);
+plot(x2, r);
 xlabel('beta');
 ylabel('sum');
+title('Beta');
+
+writematrix([(x1 + 0.8)', sex', (x1 + 1)', birth'], "task2_sensitivity_analysis.xlsx")
+writematrix([x2', r'], "task2_sensitivity_analysis.xlsx", "Range", "E:F")
+
 title('beta');
 
 writematrix([(x1 + 0.8)', sex', (x1 + 1)', birth'], "task2敏感性分析.xlsx")
