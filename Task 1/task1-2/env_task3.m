@@ -16,7 +16,7 @@ xxx = x_values ./ (1 - x_values);
 
 % %%%%%%%%%%
 R = death;
-[num, txt, raw] = xlsread('统计结果New.xlsx');
+[num, txt, raw] = xlsread('统计结果new.xlsx');
     P = num(:, 1);  % Species proportion, column
     P1 = P * 36985 - R;
     P2 = P1 ./ sum(P1); % New proportions
