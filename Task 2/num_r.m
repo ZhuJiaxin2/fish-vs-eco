@@ -23,9 +23,9 @@ ode_system = @(t, y) [
 ];
 
 
-tspan = [0 6]; % 从0到6年
+tspan = [0 6]; % 0-6years
 
-y0 = [1.5; 1.5; 1; 1; 1.5; 1]; % 初值
+y0 = [1.5; 1.5; 1; 1; 1.5; 1]; % ordinary
 
 % ode45
 [t, y] = ode45(ode_system, tspan, y0);
