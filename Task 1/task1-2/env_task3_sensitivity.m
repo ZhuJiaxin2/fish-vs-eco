@@ -1,8 +1,8 @@
+% task3的灵敏度分析文件
 clear;close;clc
 i = 0;
 for Malerate = 40:2:100
     i = i + 1;
-%     N_larval(i) = 0.0063 * Malerate - 0.1582; % 线性
     N_larval(i) = -0.0000965 * Malerate ^ 2 + 0.0154956 * Malerate - 0.3658665;
     N_juvenile(i) = juvenile_density(N_larval(i));
 end
@@ -20,7 +20,6 @@ R = death;
     P = num(:, 1);  % 物种占比，列
     P1 = P * 36985 - R;
     P2 = P1 ./ sum(P1); % 新占比
-% log2(P1)
     H = - sum(P2 .* log2(P2));
     R_ave = mean(R);
     D = 0.5 * (H + 1 - tanh(R_ave));

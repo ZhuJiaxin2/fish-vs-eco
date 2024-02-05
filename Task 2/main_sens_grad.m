@@ -1,3 +1,4 @@
+% 输出导数图像，分别取消注释得到灵敏度分析导数图像
 clear;close;clc
 
 i = 0;
@@ -34,6 +35,17 @@ xlabel('x_values');
 ylabel('y_values');
 title('sex');
 
+% x_values = 0.1:0.01:1;
+% y_values = birth;
+% 
+% % 计算数值导数
+% dy_dx = gradient(y_values, x_values);
+% 
+% figure;
+% plot(x_values, dy_dx, '-');
+% xlabel('x_values');
+% ylabel('y_values');
+% title('birth');
 
 i = 0;
 for x = 0.2:0.1:6
