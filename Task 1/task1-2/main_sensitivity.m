@@ -1,32 +1,30 @@
-% task1的灵敏度分析文件，分别取消各处注释得到输出
-clear;close;clc
+% Sensitivity analysis file for task1, uncomment each section to obtain output
+clear; close; clc
 i = 0;
 for Malerate = 30:1:90
     i = i + 1;
-    N_larval(i) = -0.0000965 * Malerate ^ 2 + 0.0154956 * Malerate - 0.3658665;
+    N_larval(i) = -0.0000965 * Malerate^2 + 0.0154956 * Malerate - 0.3658665;
     N_juvenile(i) = juvenile_density(N_larval(i));
 end
 
-% %%%%%%%%%%%%% 成年密度对幼体密度导数
+% %%%%%%%%%%%%% Adult density to juvenile density derivative
 % x_values = N_larval;
 % y_values = N_juvenile;
 % 
-% % 计算数值导数
+% % Compute numerical derivative
 % dy_dx = gradient(y_values, x_values);
 % 
 % figure;
 % plot(x_values, y_values, '-o', x_values, dy_dx, '-');
-% legend('原曲线', '数值导数');
+% legend('Original curve', 'Numerical derivative');
 % xlabel('N_larval');
 % ylabel('N_juvenile and dN_juvenile/dN_larval');
-% title('成年密度对幼体密度');
+% title('Adult density to juvenile density');
 % %%%%%%%%%%%%%
-
 
 matrix = deathnum(N_juvenile);
 
-
-% %%%%%%%%%%%%%%%%宿主死亡数对成年密度导数
+% %%%%%%%%%%%%%%%% Host death count to adult density derivative
 % x_values = N_juvenile;
 % y_matrix = matrix;
 % 
@@ -49,9 +47,7 @@ matrix = deathnum(N_juvenile);
 % ylabel('Derivative');
 % %%%%%%%%%%%%%%%%%
 
-
 % x_values = 0.3:0.01:0.9;
-% 
 % 
 % figure;
 % hold on;
@@ -67,6 +63,11 @@ matrix = deathnum(N_juvenile);
 % figure;
 % average_curve = mean(matrix, 1);
 % xxx = x_values ./ (1 - x_values);
+% plot(xxx, average_curve, 'LineWidth', 2);
+% 
+% xlabel('X');
+% ylabel('Y');
+
 % plot(xxx, average_curve, 'LineWidth', 2);
 % 
 % xlabel('X');
