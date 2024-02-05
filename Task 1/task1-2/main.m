@@ -1,4 +1,4 @@
-% task1的main函数，输出各种宿主的死亡情况
+% Main function for task1, outputs the death situations of various hosts
 clear;close;clc
 i = 0;
 for Malerate = 30:1:90
