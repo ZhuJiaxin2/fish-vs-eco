@@ -16,8 +16,8 @@ xxx = x_values ./ (1 - x_values);
 
 % %%%%%%%%%%
 R = death;
-[num, txt, raw] = xlsread('统计结果.xlsx');
-    P = num(:, 2);  % 物种占比，列
+[num, txt, raw] = xlsread('统计结果new.xlsx');
+    P = num(:, 1);  % 物种占比，列
     P1 = P * 37150 - R;
     P2 = P1 ./ sum(P1); % 新占比
 % log2(P1)
