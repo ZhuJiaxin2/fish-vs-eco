@@ -1,8 +1,8 @@
 function num = num_sex(x)
 ap = 1;
 au = 0.4;
-mp = 0.4 + x;
-mu = 0.8 - x;
+mp = 0.4 - x;
+mu = 0.8 + x;
 b = 0.4;
 r = 4;
 

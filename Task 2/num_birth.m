@@ -1,6 +1,6 @@
 function num = num_birth(x)
-ap = 1 - x;
-au = 0.4 + x;
+ap = 1 + x;
+au = 0.4 - x;
 mp = 0.4;
 mu = 0.8;
 b = 0.4;
