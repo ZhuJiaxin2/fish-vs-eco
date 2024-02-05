@@ -1,6 +1,6 @@
 clear;close;clc
 i = 0;
-for Malerate = 1:1:90
+for Malerate = 30:1:90
     i = i + 1;
 %     N_larval(i) = 0.0063 * Malerate - 0.1582; % 线性
     N_larval(i) = -0.0000965 * Malerate ^ 2 + 0.0154956 * Malerate - 0.3658665;
@@ -9,7 +9,7 @@ end
 
 matrix = deathnum(N_juvenile);
 
-x_values = 0.01:0.01:0.9;
+x_values = 0.3:0.01:0.9;
 
 % 绘制每组数据的曲线
 figure;
