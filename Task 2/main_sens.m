@@ -1,3 +1,4 @@
+% 输出直接的变化趋势原图像
 clear;close;clc
 
 i = 0;
